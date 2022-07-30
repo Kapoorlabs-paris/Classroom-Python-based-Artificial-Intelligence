@@ -31,6 +31,20 @@ Step 2) After this let us check if the package is built correctly by using a mod
 
 Step 3) Now you need an account at Pypi, get one and first let us deploy the package to testPypi instead of the main index, then you can execute this command to upload your package: `python3 -m twine upload --repository testpypi dist/*` if all goes well we are ready to populate the main pypi website by changing the testpypi in the last command to pypi.
 
+### Searching with regular expressions
+
+In this notebook we discuss the usefullness of regular expressions to serach for names/integers in a bunch of text, examples include finidng numbers at the beginning or the end of the text and how we can use that to extract the name of the file without them. [Searching with regular expressions](https://github.com/Kapoorlabs-paris/goodplacepython/blob/main/Search_regular_expressions_integer.ipynb)
+
+## Python for Deep Learning developers
+
+This is a subset of the python for develoeprs section as in this section we focus primarily on develoipers that work with deep learning datasets and models. SInce the data is shipped in various formats, in this course we focus on how to choose the best setup given the final goal of using the codebase to obtaining well trained deep learning models.
+
+### Cifar-10 dataset
+In this part we download the Cifar-10 dataset, convert the labels to one-hot encoding, learn how to create aa subset of 10 class dataset, save thm in npz format. [Python in Cifar-10](https://github.com/Kapoorlabs-paris/goodplacepython/blob/main/download_training_data_keras.ipynb)
+
+### Nvidia segmentation dataset
+In this part we look at the dataset provided by Nvidia training academy for training a simple segmentation model with tensorlfow. We experiment with the tensorflow data structure and compare that with saving data in npz formats. We also provide the functionality to upload and downlaod data from Zenodo. [Python in daset type conversions](https://github.com/Kapoorlabs-paris/goodplacepython/blob/main/download_training_data_tensorflow_npz.ipynb)
+
 ## Deep Learning for developers
 
 ### Jupyter notebooks for Cifar-10 dataset
