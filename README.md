@@ -1,6 +1,8 @@
 # Classroom-Python-based-Artificial-Intelligence
 Coursework material for [introduction-to-python-with-artificial-intelligence](https://kapoorlabs.org/product/introduction-to-python-with-artificial-intelligence/)
 
+Dataset for this course is available at [Zenodo link](https://zenodo.org/record/6944308)
+
 ## Python for developers
 ### How to make a python project with setup.py and Pipenv
 Let's create a project that you want to deploy via Pypi. 
